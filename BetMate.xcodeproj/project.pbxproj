@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		895EC5FD2A6DDC0600FD9A6E /* BetMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC5FC2A6DDC0600FD9A6E /* BetMateApp.swift */; };
+		895EC5FF2A6DDC0600FD9A6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC5FE2A6DDC0600FD9A6E /* ContentView.swift */; };
+		895EC6012A6DDC0700FD9A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895EC6002A6DDC0700FD9A6E /* Assets.xcassets */; };
+		895EC6042A6DDC0700FD9A6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895EC6032A6DDC0700FD9A6E /* Preview Assets.xcassets */; };
+		895EC60E2A6DDC0700FD9A6E /* BetMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC60D2A6DDC0700FD9A6E /* BetMateTests.swift */; };
+		895EC6182A6DDC0700FD9A6E /* BetMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC6172A6DDC0700FD9A6E /* BetMateUITests.swift */; };
+		895EC61A2A6DDC0700FD9A6E /* BetMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC6192A6DDC0700FD9A6E /* BetMateUITestsLaunchTests.swift */; };
+		895EC6272A6DDD3200FD9A6E /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC6262A6DDD3200FD9A6E /* InputField.swift */; };
+		895EC62A2A6DDDE800FD9A6E /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC6292A6DDDE800FD9A6E /* FontsManager.swift */; };
+		895EC62E2A6DDE7100FD9A6E /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC62D2A6DDE7100FD9A6E /* RoundedShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		895EC60A2A6DDC0700FD9A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895EC5F12A6DDC0600FD9A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895EC5F82A6DDC0600FD9A6E;
+			remoteInfo = BetMate;
+		};
+		895EC6142A6DDC0700FD9A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895EC5F12A6DDC0600FD9A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895EC5F82A6DDC0600FD9A6E;
+			remoteInfo = BetMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		895EC5F92A6DDC0600FD9A6E /* BetMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895EC5FC2A6DDC0600FD9A6E /* BetMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetMateApp.swift; sourceTree = "<group>"; };
+		895EC5FE2A6DDC0600FD9A6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		895EC6002A6DDC0700FD9A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		895EC6032A6DDC0700FD9A6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		895EC6092A6DDC0700FD9A6E /* BetMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895EC60D2A6DDC0700FD9A6E /* BetMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetMateTests.swift; sourceTree = "<group>"; };
+		895EC6132A6DDC0700FD9A6E /* BetMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895EC6172A6DDC0700FD9A6E /* BetMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetMateUITests.swift; sourceTree = "<group>"; };
+		895EC6192A6DDC0700FD9A6E /* BetMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		895EC6262A6DDD3200FD9A6E /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		895EC6292A6DDDE800FD9A6E /* FontsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsManager.swift; sourceTree = "<group>"; };
+		895EC62B2A6DDE4200FD9A6E /* Trebuchet MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Trebuchet MS.ttf"; path = "../../../../../../../System/Library/Fonts/Supplemental/Trebuchet MS.ttf"; sourceTree = "<group>"; };
+		895EC62D2A6DDE7100FD9A6E /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895EC5F62A6DDC0600FD9A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895EC6062A6DDC0700FD9A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895EC6102A6DDC0700FD9A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		895EC5F02A6DDC0600FD9A6E = {
+			isa = PBXGroup;
+			children = (
+				895EC5FB2A6DDC0600FD9A6E /* BetMate */,
+				895EC60C2A6DDC0700FD9A6E /* BetMateTests */,
+				895EC6162A6DDC0700FD9A6E /* BetMateUITests */,
+				895EC5FA2A6DDC0600FD9A6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		895EC5FA2A6DDC0600FD9A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895EC5F92A6DDC0600FD9A6E /* BetMate.app */,
+				895EC6092A6DDC0700FD9A6E /* BetMateTests.xctest */,
+				895EC6132A6DDC0700FD9A6E /* BetMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895EC5FB2A6DDC0600FD9A6E /* BetMate */ = {
+			isa = PBXGroup;
+			children = (
+				895EC62F2A6DE0DE00FD9A6E /* Core */,
+				895EC62C2A6DDE5F00FD9A6E /* Utils */,
+				895EC6282A6DDDDB00FD9A6E /* Fonts */,
+				895EC5FC2A6DDC0600FD9A6E /* BetMateApp.swift */,
+				895EC5FE2A6DDC0600FD9A6E /* ContentView.swift */,
+				895EC6002A6DDC0700FD9A6E /* Assets.xcassets */,
+				895EC6022A6DDC0700FD9A6E /* Preview Content */,
+			);
+			path = BetMate;
+			sourceTree = "<group>";
+		};
+		895EC6022A6DDC0700FD9A6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				895EC6032A6DDC0700FD9A6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		895EC60C2A6DDC0700FD9A6E /* BetMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				895EC60D2A6DDC0700FD9A6E /* BetMateTests.swift */,
+			);
+			path = BetMateTests;
+			sourceTree = "<group>";
+		};
+		895EC6162A6DDC0700FD9A6E /* BetMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				895EC6172A6DDC0700FD9A6E /* BetMateUITests.swift */,
+				895EC6192A6DDC0700FD9A6E /* BetMateUITestsLaunchTests.swift */,
+			);
+			path = BetMateUITests;
+			sourceTree = "<group>";
+		};
+		895EC6282A6DDDDB00FD9A6E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				895EC62B2A6DDE4200FD9A6E /* Trebuchet MS.ttf */,
+				895EC6292A6DDDE800FD9A6E /* FontsManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		895EC62C2A6DDE5F00FD9A6E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				895EC62D2A6DDE7100FD9A6E /* RoundedShape.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		895EC62F2A6DE0DE00FD9A6E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				895EC6262A6DDD3200FD9A6E /* InputField.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895EC5F82A6DDC0600FD9A6E /* BetMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895EC61D2A6DDC0700FD9A6E /* Build configuration list for PBXNativeTarget "BetMate" */;
+			buildPhases = (
+				895EC5F52A6DDC0600FD9A6E /* Sources */,
+				895EC5F62A6DDC0600FD9A6E /* Frameworks */,
+				895EC5F72A6DDC0600FD9A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetMate;
+			productName = BetMate;
+			productReference = 895EC5F92A6DDC0600FD9A6E /* BetMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895EC6082A6DDC0700FD9A6E /* BetMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895EC6202A6DDC0700FD9A6E /* Build configuration list for PBXNativeTarget "BetMateTests" */;
+			buildPhases = (
+				895EC6052A6DDC0700FD9A6E /* Sources */,
+				895EC6062A6DDC0700FD9A6E /* Frameworks */,
+				895EC6072A6DDC0700FD9A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895EC60B2A6DDC0700FD9A6E /* PBXTargetDependency */,
+			);
+			name = BetMateTests;
+			productName = BetMateTests;
+			productReference = 895EC6092A6DDC0700FD9A6E /* BetMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		895EC6122A6DDC0700FD9A6E /* BetMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895EC6232A6DDC0700FD9A6E /* Build configuration list for PBXNativeTarget "BetMateUITests" */;
+			buildPhases = (
+				895EC60F2A6DDC0700FD9A6E /* Sources */,
+				895EC6102A6DDC0700FD9A6E /* Frameworks */,
+				895EC6112A6DDC0700FD9A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895EC6152A6DDC0700FD9A6E /* PBXTargetDependency */,
+			);
+			name = BetMateUITests;
+			productName = BetMateUITests;
+			productReference = 895EC6132A6DDC0700FD9A6E /* BetMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895EC5F12A6DDC0600FD9A6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					895EC5F82A6DDC0600FD9A6E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					895EC6082A6DDC0700FD9A6E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 895EC5F82A6DDC0600FD9A6E;
+					};
+					895EC6122A6DDC0700FD9A6E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 895EC5F82A6DDC0600FD9A6E;
+					};
+				};
+			};
+			buildConfigurationList = 895EC5F42A6DDC0600FD9A6E /* Build configuration list for PBXProject "BetMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 895EC5F02A6DDC0600FD9A6E;
+			productRefGroup = 895EC5FA2A6DDC0600FD9A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895EC5F82A6DDC0600FD9A6E /* BetMate */,
+				895EC6082A6DDC0700FD9A6E /* BetMateTests */,
+				895EC6122A6DDC0700FD9A6E /* BetMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895EC5F72A6DDC0600FD9A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895EC6042A6DDC0700FD9A6E /* Preview Assets.xcassets in Resources */,
+				895EC6012A6DDC0700FD9A6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895EC6072A6DDC0700FD9A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895EC6112A6DDC0700FD9A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895EC5F52A6DDC0600FD9A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895EC62E2A6DDE7100FD9A6E /* RoundedShape.swift in Sources */,
+				895EC5FF2A6DDC0600FD9A6E /* ContentView.swift in Sources */,
+				895EC5FD2A6DDC0600FD9A6E /* BetMateApp.swift in Sources */,
+				895EC62A2A6DDDE800FD9A6E /* FontsManager.swift in Sources */,
+				895EC6272A6DDD3200FD9A6E /* InputField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895EC6052A6DDC0700FD9A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895EC60E2A6DDC0700FD9A6E /* BetMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895EC60F2A6DDC0700FD9A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895EC6182A6DDC0700FD9A6E /* BetMateUITests.swift in Sources */,
+				895EC61A2A6DDC0700FD9A6E /* BetMateUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		895EC60B2A6DDC0700FD9A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895EC5F82A6DDC0600FD9A6E /* BetMate */;
+			targetProxy = 895EC60A2A6DDC0700FD9A6E /* PBXContainerItemProxy */;
+		};
+		895EC6152A6DDC0700FD9A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895EC5F82A6DDC0600FD9A6E /* BetMate */;
+			targetProxy = 895EC6142A6DDC0700FD9A6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		895EC61B2A6DDC0700FD9A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		895EC61C2A6DDC0700FD9A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895EC61E2A6DDC0700FD9A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetMate/Preview Content\"";
+				DEVELOPMENT_TEAM = YTXVX82Z9F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.BetMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895EC61F2A6DDC0700FD9A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetMate/Preview Content\"";
+				DEVELOPMENT_TEAM = YTXVX82Z9F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.BetMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		895EC6212A6DDC0700FD9A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTXVX82Z9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.BetMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetMate";
+			};
+			name = Debug;
+		};
+		895EC6222A6DDC0700FD9A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTXVX82Z9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.BetMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetMate";
+			};
+			name = Release;
+		};
+		895EC6242A6DDC0700FD9A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTXVX82Z9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.BetMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetMate;
+			};
+			name = Debug;
+		};
+		895EC6252A6DDC0700FD9A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YTXVX82Z9F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.BetMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895EC5F42A6DDC0600FD9A6E /* Build configuration list for PBXProject "BetMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895EC61B2A6DDC0700FD9A6E /* Debug */,
+				895EC61C2A6DDC0700FD9A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895EC61D2A6DDC0700FD9A6E /* Build configuration list for PBXNativeTarget "BetMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895EC61E2A6DDC0700FD9A6E /* Debug */,
+				895EC61F2A6DDC0700FD9A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895EC6202A6DDC0700FD9A6E /* Build configuration list for PBXNativeTarget "BetMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895EC6212A6DDC0700FD9A6E /* Debug */,
+				895EC6222A6DDC0700FD9A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895EC6232A6DDC0700FD9A6E /* Build configuration list for PBXNativeTarget "BetMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895EC6242A6DDC0700FD9A6E /* Debug */,
+				895EC6252A6DDC0700FD9A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895EC5F12A6DDC0600FD9A6E /* Project object */;
+}
